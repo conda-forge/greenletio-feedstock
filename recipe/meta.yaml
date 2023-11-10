@@ -1,5 +1,5 @@
 {% set name = "greenletio" %}
-{% set version = "0.10.1" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cee341b46aed09e7ac4e7731d1df4bce5673548298da309064f8179ac2355017
+  sha256: 5751773f859ee7c5a8745569af04b27532e2b8bdb170eb224193bebc32f38136
 
 build:
   noarch: python
